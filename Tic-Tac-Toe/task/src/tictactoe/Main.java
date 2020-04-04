@@ -1,8 +1,12 @@
 package tictactoe;
 
+import java.util.Scanner;
+
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args){
         // write your code here
-        System.out.println("X O X\nO X O\nX X X");
+        Scanner sc = new Scanner( System.in );
+        char[] input = sc.nextLine().toCharArray();
+
     }
 }
