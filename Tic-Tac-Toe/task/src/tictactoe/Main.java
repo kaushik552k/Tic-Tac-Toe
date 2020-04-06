@@ -18,11 +18,6 @@ public class Main {
 
     public static boolean checkRow(char symbol, char[][] symbolArray){
 
-        for (int row = 0; row < 3; row++) {
-            if((symbol == symbolArray[row][0]) && (symbol == symbolArray[row][1]) && (symbol == symbolArray[row][2])) {
-                return true;
-            }
-        }
         return false;
     }
 
