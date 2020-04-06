@@ -36,8 +36,7 @@ public class Main {
 
     public static boolean checkDiagonal(char symbol, char[][] symbolArray){
 
-        return ((symbol == symbolArray[0][0]) && (symbol == symbolArray[1][1]) && (symbol == symbolArray[2][2])) ||
-                ((symbol == symbolArray[2][0]) && (symbol == symbolArray[1][1]) && (symbol == symbolArray[0][2]));
+        return false;
     }
 
     public static boolean xWins(char[][] symbolArray){
