@@ -26,11 +26,7 @@ public class Main {
     }
 
     public static boolean checkColumn(char symbol, char[][] symbolArray){
-        for (int column = 0; column < 3; column++) {
-            if((symbol == symbolArray[0][column]) && (symbol == symbolArray[1][column]) && (symbol == symbolArray[2][column])) {
-                return true;
-            }
-        }
+
         return false;
     }
 
