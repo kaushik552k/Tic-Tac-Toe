@@ -7,6 +7,11 @@ public class Main {
 
     public static int countSymbols(char symbol, char[] arrayTicTac){
         int howManyTimes = 0;
+        for (int i = 0; i < arrayTicTac.length; i++) {
+            if(arrayTicTac[i] == symbol) {
+                howManyTimes++;
+            }
+        }
         return howManyTimes;
     }
 
